@@ -100,6 +100,12 @@
 	      }, {
 	        id: 2,
 	        text: 'Clean the yard'
+	      }, {
+	        id: 3,
+	        text: 'Clean the kitchen'
+	      }, {
+	        id: 4,
+	        text: 'Take out the trash'
 	      }]
 	    };
 	    return _this;
@@ -19920,6 +19926,8 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        this.props.id,
+	        '. ',
 	        this.props.text
 	      );
 	    }
